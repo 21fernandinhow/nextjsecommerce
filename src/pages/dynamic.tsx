@@ -41,11 +41,11 @@ const Dynamic: NextPage = (props: {
 
         <div className="row">
             <div className="col py-2">
-                <h3>Gerado no servidor:</h3>
+                <h3>Gerado no lado do servidor:</h3>
                 <h4>{props.serverSideData?.timestamp.toString()}</h4>
             </div>
             <div className="col py-2">
-                <h3>Gerado no cliente:</h3>
+                <h3>Gerado no lado do cliente:</h3>
                 <h4>{clientSideData?.timestamp.toString()}</h4>
             </div>
         </div>
