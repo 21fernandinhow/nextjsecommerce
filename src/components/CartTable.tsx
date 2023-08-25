@@ -65,15 +65,15 @@ export default function CartTable() {
       <tr>
         <td>
           <Row className="align-items-center">
-            <Col xs={4} md={2} lg={1}>
+            <Col xs={4} md={2} lg={2}>
               <Image
                 src={props.entry.product.imageUrl}
                 alt={props.entry.product.name}
-                height={500}
-                width={600}
+                height={60}
+                width={60}
               />
             </Col>
-            <Col xs={8} md={10} lg={11}>
+            <Col xs={8} md={10} lg={9}>
               {props.entry.product.name}
             </Col>
           </Row>
